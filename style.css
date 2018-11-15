@@ -1,0 +1,104 @@
+body{
+background-color:#dee2e6;
+}
+
+.main{
+position:relative;
+width:10em;
+height:3em;
+}
+
+.txt{
+padding: 10px;
+width:300px;
+border: 2px solid #563d7c;
+border-radius:10px;
+background-color:#fff;
+position: absolute;
+top:0;
+left:0;
+visibility:hidden;
+}
+
+.button{
+position: absolute;
+top:0;
+left:0;
+width:10em;
+height:3em;
+border: 2px solid #563d7c;
+padding: 10px;
+border-radius:10px;
+background-color:#563d7c;
+color:white;
+text-align: center;
+}
+.button:hover{
+background-color:white;/*#baf;*/
+color:#563d7c;
+}
+
+.sendbutton{
+width:10em;
+height:3em;
+border: 2px solid #563d7c;
+padding: 10px;
+border-radius:10px;
+background-color:#563d7c;
+color:white;
+text-align: center;
+margin:1em;
+visibility:hidden;
+}
+.sendbutton:hover{
+background-color:white;
+color:#563d7c;
+}
+
+.clearbutton{
+width:8em;
+height:2em;
+border: 2px solid red;
+padding: auto;
+margin:1em;
+border-radius:10px;
+background-color:red;
+color:white;
+text-align: center;
+}
+.clearbutton:hover{
+background-color:white;/*#baf;*/
+color:red;
+}
+
+/*.container, .row*/
+.fullh{
+height:100vh;
+}
+
+.modalbackground {
+margin: 0; 
+padding: 0; 
+position: fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background: rgba(0,0,0,0.5);
+z-index:100; /* выводим фон поверх всех слоев на странице браузера */
+visibility:hidden;
+}
+
+/* ширина диалогового окна и его отступы от экрана */
+.modalwindow {
+border: 2px solid #563d7c;
+border-radius:10px;
+width: 100%;
+max-width: 400px;
+margin: 20% auto;
+padding: 2%;
+background: #fff;
+}
+
+
+

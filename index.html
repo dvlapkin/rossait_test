@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Страничка по заданию</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+	
+<div class="container fullh">
+	<div class="row fullh align-items-center justify-content-center">
+			<div class="main">
+				<div class="txt"></div>
+				<div class="button">Нажми меня!</div> 			
+			</div>
+	</div>	
+</div>
+
+<div class="modalbackground">
+	<div class="modalwindow">
+		<form id="modalform">
+			<div class="container">
+		<fieldset>
+				<div class="row"><legend>Введите данные:</legend></div>
+				<div class="row">
+					<div class="col"><label>Имя:</label></div>
+					<div class="col"><input type="text" name="n" value="" id="name" required></div>
+				</div>
+				<div class="row">
+					<div class="col"><label>Телефон:</label></div>
+					<div class="col"><input type="tel" name="t" value="" id="tel" required></div>
+				</div>
+				<div class="row">
+					<div class="col"><label>E-mail:</label></div>
+					<div class="col"><input type="email" name="e" value="" id="email" required></div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-8"><input type="submit" value="Отправить" align="center" class="sendbutton"/></div>
+				</div>	
+		</fieldset>
+			</div>
+		
+		</form>
+	</div>
+</div>
+<div class="output"></div>
+
+</body>
+</html>
+
+
